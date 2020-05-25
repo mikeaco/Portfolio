@@ -1,0 +1,30 @@
+.main {
+    background-color:  rgb(243, 109, 109);
+    animation-name: anim;
+    animation-duration: 2s;
+  }
+  
+  @keyframes anim {
+    
+    from {background-color: white; opacity: 0;}
+    to {background-color: rgb(243, 109, 109);; opacity: 1;}
+  }
+  .mainblock{
+      transform: translate(0em);
+  }
+  div.ProjBlock{
+      width: 500px;
+      
+  }
+  .ProjBlock{
+    margin: 2em auto;
+    opacity: 0;
+    transition: opacity 1s ease-out;
+    will-change:  opacity;
+    
+  }
+
+  .ProjBlock.is-visible{
+      opacity: 1;
+      
+  }

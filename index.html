@@ -1,88 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link href="stylesheet.css" rel="stylesheet" />
-    <title>Michael Acolatse</title>
-    <link rel="icon" href="resources/Title.png" type="image/icon type" />
-  </head>
+<head>
+  <link href="stylesheet.css" rel="stylesheet" />
+  <title>Michael Acolatse</title>
+  <link rel="icon" href="resources/Title.png" type="image/icon type" />
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <h1>Michael Acolatse</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-  <body id="noScroll" class="main" style="font-family: Comic Sans MS">
-    <div class="mainblock show-on-scroll">
-      <h1 style="text-align: center">Michael Acolatse</h1>
-      <div style="text-align: center">
-        <img src="resources/Me.ico" width="250" height="250" />
-      </div>
-      <span style="text-align: center">
-        <p>
-          Second year computer science student<br />
-          at the University of Virginia School of<br />
-          Engineering and Applied Science.
-        </p>
+  <section id="hero">
+    <div class="hero-container">
+      <h2>Welcome to My Portfolio</h2>
+    </div>
+  </section>
 
-        <div>
-          <a href="resources/Acolatse_Michael_Resume.pdf" target="”_blank”"
-            ><img src="resources/resumepic.png"
-          /></a>
-          <a href="https://github.com/mikeaco" target="”_blank”"
-            ><img src="resources/gitpic.png"
-          /></a>
-          <a
-            href="https://www.linkedin.com/in/michael-acolatse-44b13b199/"
-            target="”_blank”"
-            ><img src="resources/linkpic.png"
-          /></a>
+  <section id="about">
+    <div class="about-container">
+      <h2>About Me</h2>
+      <img src="resources/Me.ico" alt="Profile Image" />
+      <p>
+        Graduate of University of Virginia School of Engineering and Applied Science.
+      </p>
+      <p>
+        I have a strong interest in web development and enjoy creating interactive and visually appealing websites. Check out my projects below!
+      </p>
+    </div>
+  </section>
+
+  <section id="projects">
+    
+    <h2>Projects</h2>
+    <div class="projects-container">
+
+      <div class="project">
+        <img src="resources/planify.png" alt="Sorting Visualization" />
+        <div class="project-info">
+          <h3>Planify</h3>
+          <p>
+            A very simple planning website
+          </p>
+          <a href="https://dev.dffy1emn68kgs.amplifyapp.com" target="_blank">See Here</a>
         </div>
-        <div style="text-align: center">email: michael.acolatse@gmail.com</div>
-      </span>
+      </div>
+
+      <div class="project">
+        <img src="resources/SortPic.PNG" alt="Sorting Visualization" />
+        <div class="project-info">
+          <h3>Sorting Visualization</h3>
+          <p>
+            Sorting Visualization webpage using React JS<br>
+            Visualizes SelectionSort, MergeSort, QuickSort, and HeapSort.
+          </p>
+          <a href="https://mikeaco.github.io/Sorting-Visualization/" target="_blank">See Here</a>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="resources/PathfindingPic.PNG" alt="Pathfinding Visualization" />
+        <div class="project-info">
+          <h3>Pathfinding Visualization</h3>
+          <p>
+            Pathfinding Visualization webpage using React JS<br>
+            Visualizes Dijkstra's and A*, also includes maze generators.
+          </p>
+          <a href="https://mikeaco.github.io/PathFinding-Visualizer/" target="_blank">See Here</a>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="resources/ImgPic.PNG" alt="Image Inverter and Pixelater" />
+        <div class="project-info">
+          <h3>Image Inverter and Pixelater</h3>
+          <p>
+            Image inverter and pixelater using HTML, CSS, and JavaScript<br>
+            Able to invert and pixelate .png, .jpeg, and .gif files.
+          </p>
+          <a href="https://mikeaco.github.io/Image-Inverter-and-Pixelater/" target="_blank">See Here</a>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="resources/sudokuSolverPic.PNG" alt="Sudoku Solver" />
+        <div class="project-info">
+          <h3>Sudoku Solver</h3>
+          <p>
+            Sudoku Solver that uses a backtracking algorithm.<br>
+            Includes a visual animation of the algorithm.
+          </p>
+          <a href="https://github.com/mikeaco/SudokuSolver" target="_blank">See Here</a>
+        </div>
+      </div>
     </div>
-    <div class="ProjBlock show-on-scroll" style="text-align: center">
-      <h2 style="position: relative">Sorting Visualization</h2>
-      <img src="resources/SortPic.PNG" width="400" height="250" /><br />
-      Sorting Visualization webpage using React JS<br />
-      Visualizes SelectionSort, MergeSort, QuickSort and HeapSort
-      <a
-        href="https://mikeaco.github.io/Sorting-Visualization/"
-        target="”_blank”"
-        >See Here</a
-      >
-      (Not optimized for mobile use)
+  </section>
+
+  <section id="contact">
+    <div class="contact-container">
+      <h2>Contact Me</h2>
+      <p>Email: michael.acolatse@gmail.com</p>
+      <div class="social-links">
+        <a href="resources/Acolatse_Michael_Resume.pdf" target="_blank"><img src="resources/resumepic.png" alt="Resume" /></a>
+        <a href="https://github.com/mikeaco" target="_blank"><img src="resources/gitpic.png" alt="GitHub" /></a>
+        <a href="https://www.linkedin.com/in/michaelacolatse/" target="_blank"><img src="resources/linkpic.png" alt="LinkedIn" /></a>
+      </div>
     </div>
-    <div class="ProjBlock show-on-scroll" style="text-align: center">
-      <h2 style="position: relative">Pathfinding Visualization</h2>
-      <img src="resources/PathfindingPic.PNG" width="400" height="250" /><br />
-      Pathfinding Visualization webpage using React JS<br />
-      Visualizes Dijsktras and A*, also includes maze generators
-      <a
-        href="https://mikeaco.github.io/PathFinding-Visualizer/"
-        target="”_blank”"
-        >See Here</a
-      >
-      (Not optimized for mobile use)
-    </div>
-    <div class="ProjBlock show-on-scroll" style="text-align: center">
-      <h2 style="position: relative">Image-Inverter-and-Pixelater</h2>
-      <img src="resources/ImgPic.PNG" width="400" height="250" /><br />
-      Image inverter and pixelater using HTML, CSS and JavaScript<br />
-      Able to invert and pixelate .png, .jpeg and .gif files<br />
-      <a
-        href="https://mikeaco.github.io/Image-Inverter-and-Pixelater/"
-        target="”_blank”"
-        >See Here</a
-      >
-      (Not optimized for mobile use)
-    </div>
-    <div class="ProjBlock show-on-scroll" style="text-align: center">
-      <h2 style="position: relative">Sudoku Solver</h2>
-      <img src="resources/sudokuSolverPic.PNG" width="200" height="250" /><br />
-      Sudoku Solver that uses a backtracking algorithm. Includes a visual
-      animation of the algorithm<br />
-      <a href="https://github.com/mikeaco/SudokuSolver" target="”_blank”"
-        >See Here</a
-      >
-    </div>
-    <script src="portfolio.js" type="text/javascript"></script>
-    <span style="width: auto; background-color: antiquewhite; bottom: 0"
-      >© 2021 Michael Acolatse</span
-    >
-  </body>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Michael Acolatse</p>
+  </footer>
+</body>
 </html>
